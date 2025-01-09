@@ -83,14 +83,17 @@
 
         .section ul li {
             margin: 8px 0;
-            color: #555;
         }
 
-        .section ul li:before {
-            content: "•";
+        .section ul li a {
+            text-decoration: none;
             color: #6a11cb;
             font-weight: bold;
-            margin-right: 10px;
+            transition: color 0.3s;
+        }
+
+        .section ul li a:hover {
+            color: #2575fc;
         }
     </style>
 </head>
@@ -98,27 +101,23 @@
     <div class="container">
         <div class="header">RESULT</div>
         <div class="profile">
-            <img src="../Source/faceID.jpg" alt="Profile Picture">
-            <h2>Nguyễn Hữu Duy</h2>
-            <p>Leader</p>
-            <p>MSSV - 23130075</p>
+            <img src="./Source/faceID.jpg" alt="Profile Picture">
+            <h2>Trang Gia Bảo</h2>
+            <p>Member</p>
+            <p>MSSV - 23130025</p>
         </div>
         <div class="section">
             <h3>Trang web nhóm</h3>
             <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
+                <li><a href="https://example.com/link1" target="_blank">Link 1</a></li>
+                <li><a href="https://example.com/link2" target="_blank">Link 2</a></li>
             </ul>
         </div>
         <div class="section">
             <h3>Trang web project</h3>
             <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
+                <li><a href="https://example.com/project1" target="_blank">Link 1</a></li>
+                <li><a href="https://example.com/project2" target="_blank">Link 2</a></li>
             </ul>
         </div>
         <div class="section">
