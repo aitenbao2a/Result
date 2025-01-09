@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao Diện Cá Nhân</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 90%;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #ffffff;
+            padding: 15px 0;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .profile {
+            padding: 20px;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 4px solid #6a11cb;
+        }
+
+        .profile h2 {
+            font-size: 22px;
+            margin: 10px 0 5px;
+            color: #444;
+        }
+
+        .profile p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .section {
+            border-top: 1px solid #e0e0e0;
+            padding: 15px 20px;
+            text-align: left;
+        }
+
+        .section h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #2575fc;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .section ul li {
+            margin: 8px 0;
+            color: #555;
+        }
+
+        .section ul li:before {
+            content: "•";
+            color: #6a11cb;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">RESULT</div>
+        <div class="profile">
+            <img src="../Source/faceID.jpg" alt="Profile Picture">
+            <h2>Nguyễn Hữu Duy</h2>
+            <p>Leader</p>
+            <p>MSSV - 23130075</p>
+        </div>
+        <div class="section">
+            <h3>Trang web nhóm</h3>
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Trang web project</h3>
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Đánh giá</h3>
+            <ul>
+                <li>Nội dung 1</li>
+                <li>Nội dung 2</li>
+                <li>Nội dung 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
